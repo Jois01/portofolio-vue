@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "Portofolio",
+    "teknologi": ["vue.js", "javascript", "tailwind css"],
+    "image": "portofolio.png",
+    "description": "Belum ada"
+  },
+  {
+    "id": 2,
+    "name": "Profile Perusahaan",
+    "teknologi": ["javascript", "tailwind css", "HTML"],
+    "image": "perusahaan.png",
+    "description": "Belum ada"
+  },
+  {
+    "id": 3,
+    "name": "Bengkel",
+    "teknologi": ["PHP", "javascript", "Boostrap", "css"],
+    "image": "Bengkel.jpg",
+    "description": "Belum ada"
+  },
+  {
+    "id": 4,
+    "name": "Blog Sederhana",
+    "teknologi": ["Laravel", "tailwind css"],
+    "image": "blog.png",
+    "description": "Belum ada"
+  }
+]

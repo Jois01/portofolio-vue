@@ -1,6 +1,6 @@
 <template>
   <div
-    class="bg-emerald-600 mx-auto grid max-w-2xl grid-cols-1 items-center gap-20 px-4 sm:px-6 sm:py-32 lg:max-w-7xl lg:grid-cols-2 lg:px-8"
+    class="mx-auto grid max-w-2xl grid-cols-1 items-center gap-20 px-4 sm:px-6 sm:py-32 lg:max-w-7xl lg:grid-cols-2 lg:px-8"
     v-for="profile in profiles"
   >
     <div>
@@ -25,7 +25,7 @@ const profiles = [
   {
     name: 'Ni Putu Jois Tika Dewi',
     description:
-      'The walnut wood card tray is precision milled to perfectly fit a stack of Focus cards. The powder coated steel divider separates active cards from new ones, or can be used to archive important task lists.',
+      'TLorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita maxime saepe voluptatem esse, ducimus temporibus id magni quos non molestiae?x',
     image: 'aku-2.png',
     alt: 'profile photo',
   },

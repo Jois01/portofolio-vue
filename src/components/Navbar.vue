@@ -1,15 +1,15 @@
 <template>
-  <nav class="bg-gray-800 sticky top-5  md:p-4 m-4 rounded-lg shadow-md">
+  <nav class="bg-gray-800 sticky top-5 md:p-4 m-4 rounded-lg shadow-md">
     <div class="flex items-center justify-between">
       <div class="flex items-center text-emerald-500 text-xl font-bold">
         <!-- <img class="w-48 m-4" src="./icons/logoipsum.png" alt="" /> -->
-        <div class="text-xl m-4 hidden md:block" to="#Beranda">Beranda</div>
-        <div class="text-xl m-4 hidden md:block" to="#about">About</div>
+        <a href="#Beranda" class="text-xl m-4 hidden md:block">Beranda</a>
+        <a href="#about" class="text-xl m-4 hidden md:block">About</a>
       </div>
 
       <div id="mobile-menu" class="md:hidden flex items-center px-10">
         <div
-          class="bar-menu relative inline-flex items-center justify-center rounded-md p-2 border hover:border-blue-500"
+          class="bar-menu relative inline-flex items-center justify-center rounded-md p-2 "
           @click="toggleMenu()"
         >
           <svg
@@ -18,7 +18,7 @@
             viewBox="0 0 24 24"
             stroke-width="1.5"
             stroke="currentColor"
-            class="size-6"
+            class="size-6 stroke-emerald-600"
           >
             <path
               stroke-linecap="round"
@@ -33,10 +33,14 @@
     <div id="menu-dropdown" class="hidden md:hidden py-3">
       <div class="text-md ml-auto m-3">
         <div to="#Beranda">
-          <div class="m-3 hover:border hover:border-blue-500 p-2 rounded-md">Beranda</div>
+          <div class="m-3 hover:border hover:border-emerald-500 text-emerald-600 p-2 rounded-md">
+            Beranda
+          </div>
         </div>
         <div to="#about">
-          <div class="m-3 hover:border hover:border-blue-500 p-2 rounded-md">About</div>
+          <div class="m-3 hover:border hover:border-emerald-500 text-emerald-600 p-2 rounded-md">
+            About
+          </div>
         </div>
       </div>
     </div>
