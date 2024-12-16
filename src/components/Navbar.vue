@@ -1,15 +1,16 @@
 <template>
-  <nav class="bg-gray-800 sticky top-5 md:p-4 m-4 rounded-lg shadow-md">
+  <nav class="bg-gray-800 sticky top-5 md:p-1 m-4 rounded-lg shadow-md">
     <div class="flex items-center justify-between">
       <div class="flex items-center text-emerald-500 text-xl font-bold">
-        <!-- <img class="w-48 m-4" src="./icons/logoipsum.png" alt="" /> -->
         <a href="#Beranda" class="text-xl m-4 hidden md:block">Beranda</a>
-        <a href="#about" class="text-xl m-4 hidden md:block">About</a>
+        <a href="#about" class="text-xl m-4 hidden md:block">Tentang</a>
+        <a href="#project" class="text-xl m-4 hidden md:block">Proyek</a>
+        <a href="#contact" class="text-xl m-4 hidden md:block">Kontak</a>
       </div>
 
       <div id="mobile-menu" class="md:hidden flex items-center px-10">
         <div
-          class="bar-menu relative inline-flex items-center justify-center rounded-md p-2 "
+          class="bar-menu relative inline-flex items-center justify-center rounded-md p-2"
           @click="toggleMenu()"
         >
           <svg

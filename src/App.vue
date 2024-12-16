@@ -4,20 +4,24 @@ import hero from './components/hero.vue'
 import about from './components/about.vue'
 import project from './components/project.vue'
 import contact from './components/contact.vue'
+import Footer from './components/footer.vue'
 </script>
 
 <template>
   <Navbar />
-  <section class="h-screen">
+  <section id="Beranda" class="h-screen">
     <hero />
   </section>
-  <section class="h-screen">
+  <section id="about" >
     <about />
   </section>
-  <section>
+  <section id="project">
     <project />
   </section>
-  <section class="h-screen">
+  <section id="contact">
     <contact />
+  </section>
+  <section>
+    <Footer />
   </section>
 </template>

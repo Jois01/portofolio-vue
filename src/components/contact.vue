@@ -31,7 +31,7 @@
                   name="email"
                   id="email"
                   class="block min-w-0 grow py-1.5 pl-1 pr-3 text-base text-gray-900 placeholder:text-gray-400 focus:outline focus:outline-0 sm:text-sm/6"
-                  placeholder="janesmith"
+                  placeholder="email@gmail.com"
                 />
               </div>
             </div>
@@ -39,7 +39,7 @@
         </div>
 
         <div class="col-span-full">
-          <label for="about" class="block text-sm/6 font-medium text-gray-900">About</label>
+          <label for="about" class="block text-sm/6 font-medium text-gray-900">Deskripsi</label>
           <div class="mt-2">
             <textarea
               name="about"
@@ -50,14 +50,16 @@
           </div>
         </div>
 
-        <div class="flex items-center justify-end gap-x-6">
-          <button type="button" class="text-sm/6 font-semibold text-gray-900">Cancel</button>
+        <div class="flex items-center justify-end gap-x-6 mt-4">
+          <button type="button" class="text-sm/6 bg-red-600 border  py-2 px-3 border-gray-900  font-semibold text-white  rounded-md shadow-md shadow-black hover:bg-red-500 hover:shadow-none ease-in-out transition-all	duration-700">Cancel</button>
+          
           <button
-            type="submit"
-            class="rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-          >
+          type="submit"
+
+              class="bg-cyan-600 border border-gray-900 py-2 px-3 text-white rounded-md shadow-md shadow-black hover:bg-cyan-500 hover:shadow-none ease-in-out transition-all	duration-700"
+            >
             Save
-          </button>
+            </button>
         </div>
       </div>
     </form>
