@@ -1,3 +1,7 @@
+<script setup>
+import iconGithub from './icons/iconGithub.vue'
+import iconLinkedin from './icons/iconLinkedin.vue'
+</script>
 <template>
   <footer class="bg-gray-900">
     <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
@@ -12,13 +16,31 @@
               <li>
                 <a href="https://tailwindcss.com/" class="hover:underline">Tailwind CSS</a>
               </li>
+              <li>
+                <a href="https://vuejs.org/" class="hover:underline">Vue.js</a>
+              </li>
             </ul>
           </div>
           <div>
             <h2 class="mb-6 text-sm font-semibold uppercase text-white">Follow us</h2>
             <ul class="text-gray-400 font-medium">
               <li class="mb-4">
-                <a href="https://github.com/Jois01" class="hover:underline">Github</a>
+                <a
+                  class="hover:underline flex items-center gap-2 hover:fill-white fill-gray-500 ease-in-out transition-all duration-700"
+                  href="https://github.com/Jois01"
+                >
+                  <iconGithub class="size-5" />
+                  Github
+                </a>
+              </li>
+              <li class="mb-4">
+                <a
+                  class="hover:underline flex items-center gap-2 hover:fill-white fill-gray-400 ease-in-out transition-all duration-700"
+                  href="https://www.linkedin.com/in/ni-putu-jois-tika-dewi-417993253/"
+                >
+                  <iconLinkedin class="size-6" />
+                  Linkedin
+                </a>
               </li>
             </ul>
           </div>

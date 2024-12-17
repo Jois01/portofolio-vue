@@ -4,27 +4,47 @@
     "name": "Portofolio",
     "teknologi": ["vue.js", "javascript", "tailwind css"],
     "image": "portofolio.png",
-    "description": "Belum ada"
+    "github": "#",
+    "link":"#"
   },
   {
     "id": 2,
     "name": "Profile Perusahaan",
     "teknologi": ["javascript", "tailwind css", "HTML"],
     "image": "perusahaan.png",
-    "description": "Belum ada"
+    "github": "https://github.com/Jois01/coba-tailwindcss.github.io",
+    "link":"https://jois01.github.io/coba-tailwindcss.github.io/"
   },
   {
     "id": 3,
-    "name": "Bengkel",
-    "teknologi": ["PHP", "javascript", "Boostrap", "css"],
-    "image": "Bengkel.jpg",
-    "description": "Belum ada"
-  },
-  {
-    "id": 4,
     "name": "Blog Sederhana",
     "teknologi": ["Laravel", "tailwind css"],
     "image": "blog.png",
-    "description": "Belum ada"
+    "github": "https://github.com/Jois01/nyoba",
+    "link":"#"
+  },
+  {
+    "id": 4,
+    "name": "e-commers dummyjson Api",
+    "teknologi": ["Vue.js", "tailwind css"],
+    "image": "e-commers.png",
+    "github": "https://github.com/Jois01/e-commerce",
+    "link":"https://e-commerce-api-lime.vercel.app/product"
+  },
+  {
+    "id": 5,
+    "name": "To Do List",
+    "teknologi": ["Vue.js", "tailwind css"],
+    "image": "todolist.png",
+    "github": "https://github.com/Jois01/vue-todoList",
+    "link":"https://vue-todo-list-seven-drab.vercel.app/"
+  },
+  {
+    "id": 6,
+    "name": "Pizza Order",
+    "teknologi": ["Vue.js", "tailwind css"],
+    "image": "pizza.png",
+    "github": "https://github.com/Jois01/pizza-order",
+    "link":"https://pizza-order-sooty.vercel.app/"
   }
 ]
