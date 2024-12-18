@@ -33,16 +33,28 @@
 
     <div id="menu-dropdown" class="hidden md:hidden py-3">
       <div class="text-md ml-auto m-3">
-        <div to="#Beranda">
-          <div class="m-3 hover:border hover:border-emerald-500 text-emerald-600 p-2 rounded-md">
-            Beranda
-          </div>
-        </div>
-        <div to="#about">
-          <div class="m-3 hover:border hover:border-emerald-500 text-emerald-600 p-2 rounded-md">
-            About
-          </div>
-        </div>
+        <ul>
+          <a href="#Beranda">
+            <li class="m-3 hover:border hover:border-emerald-500 text-emerald-600 p-2 rounded-md">
+              Beranda
+            </li>
+          </a>
+          <a href="#about">
+            <li class="m-3 hover:border hover:border-emerald-500 text-emerald-600 p-2 rounded-md">
+              Tentang
+            </li>
+          </a>
+          <a href="#project">
+            <li class="m-3 hover:border hover:border-emerald-500 text-emerald-600 p-2 rounded-md">
+              Proyek
+            </li>
+          </a>
+          <a href="#contact">
+            <li class="m-3 hover:border hover:border-emerald-500 text-emerald-600 p-2 rounded-md">
+              Kontak
+            </li>
+          </a>
+        </ul>
       </div>
     </div>
   </nav>

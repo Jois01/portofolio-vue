@@ -1,11 +1,6 @@
 <script setup>
 import iconGithub from './icons/iconGithub.vue'
 import iconLihat from './icons/iconLihat.vue'
-import iconCSS from './icons/iconCSS.vue'
-import iconHtml from './icons/iconHtml.vue'
-import iconJs from './icons/iconJs.vue'
-import IconTailwind from './icons/IconTailwind.vue'
-import iconPHP from './icons/iconPHP.vue'
 </script>
 <template>
   <div class="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">

@@ -1,6 +1,6 @@
 <template>
   <div class="container items-center mx-auto">
-    <form>
+    <form @submit.prevent="sendForm">
       <div class="m-10 gap-x-6 gap-y-8">
         <div class="text-5xl font-bold text-center text-gray-900 my-8">Contact Me</div>
         <div class="mt-10 grid grid-cols-2 gap-x-6 gap-y-8">
@@ -11,7 +11,7 @@
                 class="flex items-center rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 focus-within:outline focus-within:outline-2 focus-within:-outline-offset-2 focus-within:outline-indigo-600"
               >
                 <input
-                
+                  v-model="form.nama"
                   type="text"
                   name="nama"
                   id="nama"
@@ -28,6 +28,7 @@
                 class="flex items-center rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 focus-within:outline focus-within:outline-2 focus-within:-outline-offset-2 focus-within:outline-indigo-600"
               >
                 <input
+                  v-model="form.email"
                   type="email"
                   name="email"
                   id="email"
@@ -43,6 +44,7 @@
           <label for="about" class="block text-sm/6 font-medium text-gray-900">Deskripsi</label>
           <div class="mt-2">
             <textarea
+              v-model="form.about"
               name="about"
               id="about"
               rows="3"
@@ -70,3 +72,29 @@
     </form>
   </div>
 </template>
+<script>
+import axios from 'axios'
+
+export default {
+  data() {
+    return {
+      form: {
+        nama: '',
+        email: '',
+        about: '',
+      },
+    }
+  },
+  methods: {
+    async sendForm() {
+      try {
+        await axios.post('http://localhost:3000/send-email', formData)
+        alert('Pesan berhasil dikirim!')
+      } catch (error) {
+        console.error('Error:', error)
+        alert('Terjadi kesalahan, coba lagi nanti.')
+      }
+    },
+  },
+}
+</script>
