@@ -1,10 +1,16 @@
 <template>
   <nav class="bg-gray-800 sticky top-5 md:p-1 m-4 rounded-lg shadow-md">
     <div class="flex items-center justify-between">
+      <div class="flex items-center">
+        <a href="https://putujois.vercel.app/" class="text-xl font-bold text-emerald-500 m-4"
+          >Putu Jois</a
+        >
+      </div>
       <div class="flex items-center text-emerald-500 text-xl font-bold">
         <a href="#Beranda" class="text-xl m-4 hidden md:block">Beranda</a>
         <a href="#about" class="text-xl m-4 hidden md:block">Tentang</a>
         <a href="#project" class="text-xl m-4 hidden md:block">Proyek</a>
+        <a href="#sertif" class="text-xl m-4 hidden md:block">Sertifikat</a>
         <a href="#contact" class="text-xl m-4 hidden md:block">Kontak</a>
       </div>
 
@@ -47,6 +53,11 @@
           <a href="#project">
             <li class="m-3 hover:border hover:border-emerald-500 text-emerald-600 p-2 rounded-md">
               Proyek
+            </li>
+          </a>
+          <a href="#sertif">
+            <li class="m-3 hover:border hover:border-emerald-500 text-emerald-600 p-2 rounded-md">
+              Sertifikat
             </li>
           </a>
           <a href="#contact">

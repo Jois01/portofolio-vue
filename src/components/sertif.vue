@@ -12,7 +12,7 @@ const sertifs = [
     id: 2,
     image: 'sertif_programmer.jpeg',
     name: 'Programmer',
-    tahun: 'June 2024',
+    tahun: 'Juni 2024',
   },
 ]
 
@@ -32,7 +32,7 @@ function closeModal() {
 
 <template>
   <div class="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
-    <div class="text-5xl font-bold text-center text-gray-900 my-8">Sertif</div>
+    <div class="text-5xl font-bold text-center text-gray-900 my-8">Sertifikat</div>
     <div class="flex gap-8">
       <div
         v-for="sertif in sertifs"
@@ -40,7 +40,7 @@ function closeModal() {
         class="group cursor-pointer"
         @click="openModal(sertif)"
       >
-        <img :src="sertif.image" class="w-52 rounded-lg bg-gray-200" />
+        <img :src="sertif.image" class="w-52 rounded-lg" />
         <h3 class="mt-4 text-xl font-bold text-gray-900">{{ sertif.name }}</h3>
         <h3 class="mt-4 text-lg font-bold text-gray-900">{{ sertif.tahun }}</h3>
       </div>
