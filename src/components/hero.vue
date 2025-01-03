@@ -13,17 +13,17 @@
           {{ profile.description }}
         </div>
         <div class="mt-4 flex items-center gap-2">
-          <div>
+          <a  href="https://github.com/Jois01" >
             <iconGithub class="size-10 hover:fill-white ease-in-out transition-all duration-700" />
-          </div>
-          <div>
+          </a>
+          <a  href="https://www.linkedin.com/in/ni-putu-jois-tika-dewi-417993253/">
             <iconLinkedin
               class="size-12 hover:fill-white ease-in-out transition-all duration-700"
             />
-          </div>
-          <div>
+          </a>
+          <a href="http://putujois0703@gmail.com/">
             <iconEmail class="size-12 hover:stroke-white ease-in-out transition-all duration-700" />
-          </div>
+          </a>
         </div>
       </div>
     </div>

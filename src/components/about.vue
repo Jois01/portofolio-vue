@@ -8,9 +8,9 @@
         <div class="lg:pt-4 mb-8">
           <div class="lg:max-w-lg">
             <div class="text-left md:w-96">
-              <h3 class="text-2xl text-white font-bold">Saya Web Developer</h3>
+              <h3 class="text-2xl text-gray-900 font-bold">Saya Web Developer</h3>
               <hr class="my-6 sm:mx-auto border-gray-700 lg:my-8" />
-              <p class="text-white text-xl">
+              <p class="text-gray-900 text-xl">
                 Saya Ni Putu Jois Tika Dewi, mahasiswa D-3 Manajemen Informatika ITB STIKOM Bali.
                 Dengan ketertarikan yang besar pada dunia web development, saya aktif terlibat dalam
                 berbagai proyek semasa kuliah, seperti pengembangan web kasir dan profil perusahaan.

@@ -21,7 +21,7 @@ import iconLihat from './icons/iconLihat.vue'
             :href="project.github"
             target="_blank"
             rel="noopener noreferrer"
-            class="flex gap-2 items-center bg-cyan-600 border border-gray-900 py-2 px-3 text-gray-900 rounded-md shadow-md shadow-black hover:bg-cyan-500 hover:shadow-none ease-in-out transition-all duration-700"
+            class="flex gap-2 items-center bg-cyan-600 border border-gray-900 py-2 px-3 text-gray-900 rounded-md shadow-md shadow-black hover:bg-cyan-500 hover:shadow-none ease-in-out duration-700"
           >
             <iconGithub class="size-4" />
             <span class="sr-only">GitHub account</span>
@@ -31,7 +31,7 @@ import iconLihat from './icons/iconLihat.vue'
             :href="project.link"
             target="_blank"
             rel="noopener noreferrer"
-            class="flex gap-2 items-center bg-gray-900 py-2 px-3 border border-gray-300 text-emerald-600 rounded-md shadow-md shadow-black hover:bg-gray-800 hover:shadow-none ease-in-out transition-all duration-700"
+            class="flex gap-2 items-center bg-gray-900 py-2 px-3 border border-gray-300 text-emerald-600 rounded-md shadow-md shadow-black hover:bg-gray-800 hover:shadow-none ease-in-out duration-700"
           >
             Website
             <span class="sr-only">Lihat Web</span>
