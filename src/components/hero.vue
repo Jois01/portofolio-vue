@@ -34,7 +34,7 @@
       <div class="profile">
         <img :src="profile.image" :alt="profile.alt" class="block" />
         <div
-          class="text-lg font-bold sm:w-80 w-56 bg-gray-800 text-emerald-500 text-center py-2 rounded-md"
+          class="text-lg font-bold sm:w-80 w-56 bg-gray-800 text-gray-200 text-center py-2 rounded-md"
         >
           {{ profile.name }}
         </div>
