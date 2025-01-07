@@ -11,8 +11,10 @@
               <h3 class="text-2xl font-bold">Saya Web Developer</h3>
               <hr class="my-6 sm:mx-auto border-gray-700 lg:my-8" />
               <p class="text-xl">
-                Halo, saya Ni Putu Jois Tika Dewi, Saya berasal dari Indonesia provinsi Bali. Saya seorang mahasiswa D-3 Manajemen Informatika di ITB STIKOM Bali.
-                Saya memiliki minat di bidang web development, saya sedang belajar menjadi Front-End Developer. Saat ini saya sedang belajar Vue.js dan juga Laravel
+                Halo, saya Ni Putu Jois Tika Dewi, Saya berasal dari Indonesia provinsi Bali. Saya
+                seorang mahasiswa D-3 Manajemen Informatika di ITB STIKOM Bali. Saya memiliki minat
+                di bidang web development, saya sedang belajar menjadi Front-End Developer. Saat ini
+                saya sedang belajar Vue.js dan juga Laravel
               </p>
             </div>
           </div>
