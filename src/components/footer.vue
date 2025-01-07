@@ -3,7 +3,7 @@ import iconGithub from './icons/iconGithub.vue'
 import iconLinkedin from './icons/iconLinkedin.vue'
 </script>
 <template>
-  <footer class="bg-gray-900">
+  <footer class="bg-gray-950">
     <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
       <div class="mb-6 md:flex md:justify-between">
         <div class="md:mb-0 items-center">

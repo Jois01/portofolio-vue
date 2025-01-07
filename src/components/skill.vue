@@ -21,7 +21,7 @@ const skills = [
 </script>
 
 <template>
-  <div class="skil bg-gray-900 items-center text-center justify-center rounded-md p-8 grid grid-cols-3 gap-4">
+  <div class="skil bg-gray-900 dark:bg-slate-800 items-center text-center justify-center rounded-md p-8 grid grid-cols-3 gap-4">
     <div
       v-for="(skill, index) in skills"
       :key="index"

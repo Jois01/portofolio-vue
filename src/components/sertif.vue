@@ -4,13 +4,11 @@ import { ref } from 'vue'
 const sertifs = [
   {
     id: 1,
-    image: 'sertiv_web_dev.jpeg',
     name: 'Web developer',
     tahun: 'Sep 2024',
   },
   {
     id: 2,
-    image: 'sertif_programmer.jpeg',
     name: 'Programmer',
     tahun: 'Juni 2024',
   },
@@ -31,18 +29,17 @@ function closeModal() {
 </script>
 
 <template>
-  <div class="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
-    <div class="text-5xl font-bold text-center text-gray-900 my-8">Sertifikat</div>
+  <div class="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8 text-gray-900 dark:text-slate-100">
+    <div class="text-5xl font-bold text-center  my-8">Sertifikat</div>
     <div class="flex gap-8">
       <div
         v-for="sertif in sertifs"
         :key="sertif.id"
-        class="group cursor-pointer"
+        class="group cursor-pointer  dark:border-black dark:bg-slate-800 dark:shadow-black bg-white rounded-md py-2 px-3 border border-gray-300 shadow-md "
         @click="openModal(sertif)"
       >
-        <img :src="sertif.image" class="w-52 rounded-lg" />
-        <h3 class="mt-4 text-xl font-bold text-gray-900">{{ sertif.name }}</h3>
-        <h3 class="mt-4 text-lg font-bold text-gray-900">{{ sertif.tahun }}</h3>
+        <h3 class="mt-4 text-xl font-bold ">{{ sertif.name }}</h3>
+        <h3 class="mt-4 text-lg font-bold ">{{ sertif.tahun }}</h3>
       </div>
     </div>
 
@@ -58,8 +55,7 @@ function closeModal() {
         >
           ✖
         </button>
-        <div class="content mt-10">
-          <img :src="selectedSertif.image" class="w-full h-96 rounded-md" />
+        <div class="content mt-10 bg-white rounded-md ">
           <h3 class="mt-4 text-2xl font-bold text-gray-900 text-center">
             {{ selectedSertif.name }}
           </h3>

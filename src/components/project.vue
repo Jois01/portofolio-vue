@@ -4,20 +4,20 @@ import iconLihat from './icons/iconLihat.vue'
 </script>
 <template>
   <div class="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
-    <div class="text-5xl font-bold text-center text-gray-900 my-8">Project</div>
+    <div class="text-5xl font-bold text-center text-gray-900 dark:text-slate-100 my-8">Proyek</div>
     <div
       class="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 xl:gap-x-8"
     >
       <div
         v-for="project in projects"
         :key="project.id"
-        class="group border border-gray-300 bg-white shadow-md shadow-gray-300 pb-4 rounded-md p-2"
+        class="group border border-gray-300 bg-white dark:border-black dark:bg-slate-800 dark:shadow-black shadow-md shadow-gray-300 pb-4 rounded-md p-2 dark:text-slate-100"
       >
         <img :src="project.image" class="w-full rounded-lg bg-gray-200" />
-        <h3 class="mt-4 text-xl font-bold text-gray-900">{{ project.name }}</h3>
-        <div class="mt-1 gap-2 font-medium text-gray-900 grid grid-cols-3">
+        <h3 class="mt-4 text-xl font-bold">{{ project.name }}</h3>
+        <div class="mt-1 gap-2 font-medium grid grid-cols-3">
           <div class="items-start text-center" v-for="tech in project.teknologi" :key="tech">
-            <div class="bg-gray-900 border border-gray-200 rounded-md text-gray-200">
+            <div class="bg-gray-900 border border-gray-200 text-sm py-1 rounded-md text-gray-200">
               {{ tech }}
             </div>
           </div>

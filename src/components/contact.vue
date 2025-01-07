@@ -1,11 +1,11 @@
 <template>
   <div class="container items-center mx-auto">
     <form @submit.prevent="sendForm">
-      <div class="m-10 gap-x-6 gap-y-8">
-        <div class="text-5xl font-bold text-center text-gray-900 my-8">Kontak Saya</div>
+      <div class="m-10 gap-x-6 gap-y-8 dark:text-slate-100 text-gray-900">
+        <div class="text-5xl font-bold text-center my-8">Kontak Saya</div>
         <div class="mt-10 grid grid-cols-2 gap-x-6 gap-y-8">
           <div class="my-4">
-            <label for="nama" class="block text-sm/6 font-medium text-gray-900">Nama</label>
+            <label for="nama" class="block text-sm/6 font-medium">Nama</label>
             <div class="mt-2">
               <div
                 class="flex items-center rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 focus-within:outline focus-within:outline-2 focus-within:-outline-offset-2 focus-within:outline-indigo-600"
@@ -22,7 +22,7 @@
             </div>
           </div>
           <div class="my-4">
-            <label for="email" class="block text-sm/6 font-medium text-gray-900">Email</label>
+            <label for="email" class="block text-sm/6 font-medium">Email</label>
             <div class="mt-2">
               <div
                 class="flex items-center rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 focus-within:outline focus-within:outline-2 focus-within:-outline-offset-2 focus-within:outline-indigo-600"
@@ -41,7 +41,7 @@
         </div>
 
         <div class="col-span-full">
-          <label for="about" class="block text-sm/6 font-medium text-gray-900">Pesan</label>
+          <label for="about" class="block text-sm/6 font-medium">Pesan</label>
           <div class="mt-2">
             <textarea
               v-model="form.about"
