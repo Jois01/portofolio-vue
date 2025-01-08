@@ -9,22 +9,27 @@
       </div>
       <div class="text-3xl font-bold sm:text-5xl my-2">{{ profile.job }}</div>
       <div class="mt-4 text-xl">
-        
         <div class="mt-4 flex items-center gap-2">
-          <a href="https://github.com/Jois01">
-            <iconGithub
-              class="size-10 hover:fill-white dark:hover:fill-white dark:fill-teal-600 ease-in-out transition-all duration-700"
-            />
+          <a
+            href="https://github.com/Jois01"
+            class="py-2 px-3 text-xs sm:text-lg border border-black dark:border-white hover:bg-slate-900 dark:hover:bg-white dark:hover:text-black rounded-full gap-2 flex items-center hover:text-white ease-in-out transition-all duration-700"
+          >
+            <iconGithub class="sm:size-6 size-3" />
+            Github
           </a>
-          <a href="https://www.linkedin.com/in/ni-putu-jois-tika-dewi-417993253/">
-            <iconLinkedin
-              class="size-12 hover:fill-white dark:hover:fill-white dark:fill-teal-600 ease-in-out transition-all duration-700"
-            />
+          <a
+            href="https://www.linkedin.com/in/ni-putu-jois-tika-dewi-417993253/"
+            class="py-2 px-3 text-xs sm:text-lg border border-black dark:border-white hover:bg-slate-900 dark:hover:bg-white dark:hover:text-black rounded-full gap-2 flex items-center hover:text-white ease-in-out transition-all duration-700 dark:fill-white dark:hover:fill-black hover:fill-white"
+          >
+            <iconLinkedin class="sm:size-7 size-4" />
+            Linkedin
           </a>
-          <a href="http://putujois0703@gmail.com/">
-            <iconEmail
-              class="size-12 hover:stroke-white dark:hover:stroke-white dark:stroke-teal-600 ease-in-out transition-all duration-700"
-            />
+          <a
+            href="http://putujois0703@gmail.com/"
+            class="py-2 px-3 text-xs sm:text-lg border border-black dark:border-white hover:bg-slate-900 dark:hover:bg-white dark:hover:text-black rounded-full gap-2 flex items-center hover:text-white ease-in-out transition-all duration-700"
+          >
+            <iconEmail class="sm:size-7 size-4" />
+            Email
           </a>
         </div>
       </div>

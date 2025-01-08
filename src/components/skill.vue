@@ -21,13 +21,15 @@ const skills = [
 </script>
 
 <template>
-  <div class="skil bg-gray-900 dark:bg-slate-800 items-center text-center justify-center rounded-md p-8 grid grid-cols-3 gap-4">
+  <div
+    class="skil bg-gray-900 dark:bg-slate-800 items-center text-center justify-center rounded-md p-8 grid grid-cols-3 gap-4"
+  >
     <div
       v-for="(skill, index) in skills"
       :key="index"
-      class="flex flex-col items-center justify-center text-gray-900 rounded-md hover:shadow-md hover:shadow-black py-4 px-3 ease-in-out duration-700"
+      class="flex flex-col items-center justify-center text-gray-900 rounded-md hover:shadow-md hover:shadow-black py-4 px-3 ease-in-out duration-300"
     >
-      <component :is="skill.component" class="size-16 mb-2" />
+      <component :is="skill.component" class="size-16 mb-2 " />
       <p class="text-gray-400 text-sm">{{ skill.name }}</p>
     </div>
   </div>
