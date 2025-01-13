@@ -12,11 +12,11 @@ import Footer from './components/footer.vue'
   <section id="Beranda">
     <hero />
   </section>
-  <section id="project">
-    <project />
-  </section>
   <section id="about">
     <about />
+  </section>
+  <section id="project">
+    <project />
   </section>
   <section id="contact">
     <contact />
