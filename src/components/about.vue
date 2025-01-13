@@ -23,17 +23,11 @@
         <skill />
       </div>
     </div>
+    <perjalanan />
   </div>
 </template>
 
 <script setup>
 import skill from './skill.vue'
-
-const abouts = [
-  {
-    name: 'ITB Stikom Bali',
-    date: 'Oktober 2022 - Sekarang',
-    description: 'belum ada deskripsi.',
-  },
-]
+import perjalanan from './perjalanan.vue'
 </script>

@@ -1,100 +1,37 @@
 <template>
-  <div class="container items-center mx-auto">
-    <form @submit.prevent="sendForm">
-      <div class="m-10 gap-x-6 gap-y-8 dark:text-slate-100 text-gray-900">
-        <div class="text-5xl font-bold text-center my-8">Kontak Saya</div>
-        <div class="mt-10 grid grid-cols-2 gap-x-6 gap-y-8">
-          <div class="my-4">
-            <label for="nama" class="block text-sm/6 font-medium">Nama</label>
-            <div class="mt-2">
-              <div
-                class="flex items-center rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 focus-within:outline focus-within:outline-2 focus-within:-outline-offset-2 focus-within:outline-indigo-600"
-              >
-                <input
-                  v-model="form.nama"
-                  type="text"
-                  name="nama"
-                  id="nama"
-                  class="block min-w-0 grow py-1.5 pl-1 pr-3 text-base text-gray-900 placeholder:text-gray-400 focus:outline focus:outline-0 sm:text-sm/6"
-                  placeholder="Nama Anda"
-                />
-              </div>
-            </div>
-          </div>
-          <div class="my-4">
-            <label for="email" class="block text-sm/6 font-medium">Email</label>
-            <div class="mt-2">
-              <div
-                class="flex items-center rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 focus-within:outline focus-within:outline-2 focus-within:-outline-offset-2 focus-within:outline-indigo-600"
-              >
-                <input
-                  v-model="form.email"
-                  type="email"
-                  name="email"
-                  id="email"
-                  class="block min-w-0 grow py-1.5 pl-1 pr-3 text-base text-gray-900 placeholder:text-gray-400 focus:outline focus:outline-0 sm:text-sm/6"
-                  placeholder="email@gmail.com"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
+  <div
+    class="container items-center mx-auto p-6 border-2 border-dashed border-gray-200 rounded-lg m-4"
+  >
+    <div class="text-center">
+      <h2 class="text-4xl font-extrabold text-gray-900 dark:text-white">Hubungi Saya</h2>
+      <p class="mt-2 text-lg text-gray-600 dark:text-gray-400">
+        Punya ide keren? Atau sekadar ingin menyapa? Klik tombol di bawah dan langsung kirim email
+        ke saya. Saya tunggu kabarnya!
+      </p>
+    </div>
 
-        <div class="col-span-full">
-          <label for="about" class="block text-sm/6 font-medium">Pesan</label>
-          <div class="mt-2">
-            <textarea
-              v-model="form.about"
-              name="about"
-              id="about"
-              rows="3"
-              class="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6"
-            />
-          </div>
-        </div>
+    <div class="mt-8 flex justify-center">
+      <a
+        href="mailto:putujois0703@gmail.com"
+        class="py-3 px-6 text-lg font-semibold border border-gray-800 dark:border-white text-gray-900 dark:text-white hover:bg-gray-900 dark:hover:bg-white hover:text-white dark:hover:text-black rounded-full transition-all duration-500 ease-in-out shadow-lg flex items-center gap-2"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="size-6"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3"
+          />
+        </svg>
 
-        <div class="flex items-center justify-end gap-x-6 mt-4">
-          <button
-            type="button"
-            class="text-sm/6 bg-red-600 border py-2 px-3 border-gray-900 font-semibold text-white rounded-md shadow-md shadow-black hover:bg-red-500 hover:shadow-none ease-in-out transition-all duration-700"
-          >
-            Cancel
-          </button>
-
-          <button
-            type="submit"
-            class="bg-cyan-600 border border-gray-900 py-2 px-3 text-white rounded-md shadow-md shadow-black hover:bg-cyan-500 hover:shadow-none ease-in-out transition-all duration-700"
-          >
-            Save
-          </button>
-        </div>
-      </div>
-    </form>
+        Tekan untuk Email
+      </a>
+    </div>
   </div>
 </template>
-<script>
-import axios from 'axios'
-
-export default {
-  data() {
-    return {
-      form: {
-        nama: '',
-        email: '',
-        about: '',
-      },
-    }
-  },
-  methods: {
-    async sendForm() {
-      try {
-        await axios.post('http://localhost:3000/send-email', formData)
-        alert('Pesan berhasil dikirim!')
-      } catch (error) {
-        console.error('Error:', error)
-        alert('Terjadi kesalahan, coba lagi nanti.')
-      }
-    },
-  },
-}
-</script>

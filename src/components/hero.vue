@@ -25,7 +25,7 @@
             Linkedin
           </a>
           <a
-            href="http://putujois0703@gmail.com/"
+            href="mailto:putujois0703@gmail.com"
             class="py-2 px-3 text-xs sm:text-lg border border-black dark:border-white hover:bg-slate-900 dark:hover:bg-white dark:hover:text-black rounded-full gap-2 flex items-center hover:text-white ease-in-out transition-all duration-700"
           >
             <iconEmail class="sm:size-7 size-4" />
@@ -36,12 +36,12 @@
     </div>
     <!-- Gambar Profile -->
     <div
-      class="image rounded-full flex justify-center items-center sm:w-80 w-56 bg-gray-800 dark:bg-teal-800 dark:border dark:border-teal-900 mx-auto"
+      class="image rounded-full flex justify-center items-center sm:w-80 w-56 bg-gray-800 dark:bg-gray-100 mx-auto"
     >
       <div class="profile">
         <img :src="profile.image" :alt="profile.alt" class="block" />
         <div
-          class="text-lg font-bold sm:w-80 w-56 bg-gray-800 dark:bg-teal-800 dark:border dark:border-teal-900 text-gray-200 text-center py-2 rounded-md"
+          class="text-lg font-bold sm:w-80 w-56 bg-gray-800 dark:bg-gray-100 text-white dark:text-gray-900 text-center py-2 rounded-md"
         >
           {{ profile.name }}
         </div>

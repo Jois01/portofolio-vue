@@ -1,18 +1,18 @@
 <template>
-  <nav class="bg-gray-800 dark:bg-slate-950 sticky top-5 md:p-1 m-4 rounded-lg shadow-md">
+  <nav class="bg-gray-800 dark:bg-slate-950 sticky top-4 mx-4 rounded-lg shadow-md">
     <div class="flex items-center justify-between">
       <div class="flex items-center">
         <a
           href="https://putujois.vercel.app/"
-          class="text-xl font-bold dark:text-slate-100 text-gray-200 m-4"
+          class="text-lg font-bold dark:text-slate-100 text-gray-200 m-4"
           >Putu Jois</a
         >
       </div>
-      <div class="flex items-center dark:text-slate-100 text-gray-200 text-xl font-bold mr-7">
-        <a href="#Beranda" class="text-xl m-4 hidden md:block">Beranda</a>
-        <a href="#about" class="text-xl m-4 hidden md:block">Tentang</a>
-        <a href="#project" class="text-xl m-4 hidden md:block">Proyek</a>
-        <a href="#contact" class="text-xl m-4 hidden md:block">Kontak</a>
+      <div class="flex items-center dark:text-slate-100 text-gray-200 text-lg font-bold mx-10">
+        <a href="#Beranda" class="m-4 hidden md:block">Beranda</a>
+        <a href="#project" class="m-4 hidden md:block">Proyek</a>
+        <a href="#about" class="m-4 hidden md:block">Tentang</a>
+        <a href="#contact" class="m-4 hidden md:block">Kontak</a>
         <div class="hidden md:block items-center">
           <label class="inline-flex items-center cursor-pointer" :class="theme">
             <input
@@ -93,18 +93,18 @@
               Beranda
             </li>
           </a>
-          <a href="#about">
-            <li
-              class="m-3 hover:border hover:border-gray-200 hover:ml-6 ease-in-out duration-700 text-gray-200 p-2 rounded-md"
-            >
-              Tentang
-            </li>
-          </a>
           <a href="#project">
             <li
               class="m-3 hover:border hover:border-gray-200 hover:ml-6 ease-in-out duration-700 text-gray-200 p-2 rounded-md"
             >
               Proyek
+            </li>
+          </a>
+          <a href="#about">
+            <li
+              class="m-3 hover:border hover:border-gray-200 hover:ml-6 ease-in-out duration-700 text-gray-200 p-2 rounded-md"
+            >
+              Tentang
             </li>
           </a>
           <a href="#contact">
