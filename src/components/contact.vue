@@ -12,7 +12,7 @@
       <div class="mt-8 flex justify-center">
         <a
           href="mailto:putujois0703@gmail.com"
-          class="py-3 px-6 text-lg font-semibold border border-gray-800 dark:border-white text-gray-900 dark:text-white hover:bg-gray-900 dark:hover:bg-white hover:text-white dark:hover:text-black rounded-full transition-all duration-500 ease-in-out shadow-lg flex items-center gap-2"
+          class="py-3 px-6 text-sm md:text-lg font-semibold border border-gray-800 dark:border-white text-gray-900 dark:text-white hover:bg-gray-900 dark:hover:bg-white hover:text-white dark:hover:text-black rounded-full transition-all duration-500 ease-in-out shadow-lg flex items-center gap-2"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
