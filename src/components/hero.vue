@@ -14,21 +14,21 @@
             href="https://github.com/Jois01"
             class="py-2 px-3 text-xs sm:text-lg border border-black dark:border-white hover:bg-slate-900 dark:hover:bg-white dark:hover:text-black rounded-full gap-2 flex items-center hover:text-white ease-in-out transition-all duration-700"
           >
-            <iconGithub class="sm:size-6 size-3" />
+            <iconGithub class="sm:size-6 size-4" />
             Github
           </a>
           <a
             href="https://www.linkedin.com/in/ni-putu-jois-tika-dewi-417993253/"
             class="py-2 px-3 text-xs sm:text-lg border border-black dark:border-white hover:bg-slate-900 dark:hover:bg-white dark:hover:text-black rounded-full gap-2 flex items-center hover:text-white ease-in-out transition-all duration-700 dark:fill-white dark:hover:fill-black hover:fill-white"
           >
-            <iconLinkedin class="sm:size-7 size-4" />
+            <iconLinkedin class="sm:size-7 size-5" />
             Linkedin
           </a>
           <a
             href="mailto:putujois0703@gmail.com"
             class="py-2 px-3 text-xs sm:text-lg border border-black dark:border-white hover:bg-slate-900 dark:hover:bg-white dark:hover:text-black rounded-full gap-2 flex items-center hover:text-white ease-in-out transition-all duration-700"
           >
-            <iconEmail class="sm:size-7 size-4" />
+            <iconEmail class="sm:size-7 size-5" />
             Email
           </a>
         </div>
