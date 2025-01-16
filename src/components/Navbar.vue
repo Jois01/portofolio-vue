@@ -1,5 +1,13 @@
+<script setup>
+const navigations = [
+  { name: 'Beranda', href: '#Beranda', current: true },
+  { name: 'Tentang', href: '#about', current: false },
+  { name: 'Proyek', href: '#project', current: false },
+  { name: 'Kontak', href: '#contact', current: false },
+]
+</script>
 <template>
-  <nav class="bg-gray-800 dark:bg-slate-950 sticky top-4 mx-4 rounded-lg shadow-md">
+  <nav class="bg-gray-800 dark:bg-slate-950 sticky top-4 mx-4 rounded-lg shadow-md z-50">
     <div class="flex items-center justify-between">
       <div class="flex items-center">
         <a
@@ -9,10 +17,13 @@
         >
       </div>
       <div class="flex items-center dark:text-slate-100 text-gray-200 text-lg font-bold mx-10">
-        <a href="#Beranda" class="m-4 hidden md:block">Beranda</a>
-        <a href="#project" class="m-4 hidden md:block">Proyek</a>
-        <a href="#about" class="m-4 hidden md:block">Tentang</a>
-        <a href="#contact" class="m-4 hidden md:block">Kontak</a>
+        <a
+          v-for="item in navigations"
+          :key="item.name"
+          :href="item.href"
+          class="m-4 hidden md:block"
+          >{{ item.name }}</a
+        >
         <div class="hidden md:block items-center">
           <label class="inline-flex items-center cursor-pointer" :class="theme">
             <input
@@ -86,32 +97,11 @@
     <div id="menu-dropdown" class="hidden md:hidden py-3">
       <div class="text-md ml-auto m-3">
         <ul>
-          <a href="#Beranda">
+          <a v-for="item in navigations" :key="item.name" :href="item.href">
             <li
               class="m-3 hover:border hover:border-gray-200 hover:ml-6 ease-in-out duration-700 text-gray-200 p-2 rounded-md"
             >
-              Beranda
-            </li>
-          </a>
-          <a href="#project">
-            <li
-              class="m-3 hover:border hover:border-gray-200 hover:ml-6 ease-in-out duration-700 text-gray-200 p-2 rounded-md"
-            >
-              Proyek
-            </li>
-          </a>
-          <a href="#about">
-            <li
-              class="m-3 hover:border hover:border-gray-200 hover:ml-6 ease-in-out duration-700 text-gray-200 p-2 rounded-md"
-            >
-              Tentang
-            </li>
-          </a>
-          <a href="#contact">
-            <li
-              class="m-3 hover:border hover:border-gray-200 hover:ml-6 ease-in-out duration-700 text-gray-200 p-2 rounded-md"
-            >
-              Kontak
+              {{ item.name }}
             </li>
           </a>
           <li

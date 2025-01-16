@@ -1,8 +1,8 @@
 <template>
-  <div class="max-w-7xl px-6 lg:px-8 mt-8 mx-auto items-center justify-center flex">
+  <div class="max-w-7xl px-6 lg:px-8 mt-12 mx-auto items-center justify-center flex">
     <div>
-      <div class="text-5xl text-center font-bold mb-10">Dimana saya telah belajar</div>
-      <ol class="relative border-s border-gray-200 dark:border-gray-700 mt-10">
+      <div class="text-5xl text-center font-bold mb-10">Tempat Saya Menimba Ilmu</div>
+      <ol class="relative border-s border-gray-200 dark:border-gray-700 mt-12">
         <li class="mb-10 ms-6" v-for="(about, index) in abouts" :key="index">
           <span
             class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900"
@@ -19,7 +19,7 @@
             <div class="font-normal ml-2 text-lg text-gray-900 dark:text-gray-300">
               {{ about.name }}
             </div>
-            <div class="text-sm font-normal ml-2 text-gray-500 dark:text-gray-300">
+            <div class="text-sm font-normal ml-2 text-gray-500 dark:text-gray-300 w-96">
               {{ about.description }}
             </div>
           </div>
@@ -36,12 +36,14 @@ const abouts = [
   {
     name: 'ITB Stikom Bali',
     date: 'Oktober 2022 - Sekarang',
-    description: 'Mahasiswa D-3 Manajemen Informatika di ITB STIKOM Bali.',
+    description:
+      'Sedang menempuh pendidikan Diploma 3 dalam bidang Manajemen Informatika, fokus pada pengembangan pemrograman web, dan analisis sistem.',
   },
   {
     name: 's.p Digital',
     date: 'November 2024 - Sekarang',
-    description: 'Magang',
+    description:
+      'Mengikuti program magang sebagai Frontend Developer, berfokus pada pengembangan antarmuka pengguna menggunakan Vue.js.',
   },
 ]
 </script>

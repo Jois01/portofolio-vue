@@ -1,6 +1,6 @@
 <template>
   <div
-    class="mx-auto grid max-w-2xl grid-cols-1 text-gray-900 dark:text-slate-100 items-center gap-20 px-4 sm:px-6 sm:py-32 lg:max-w-7xl lg:grid-cols-2 lg:px-8"
+    class="mx-auto mt-10 md:mt-0 grid max-w-2xl grid-cols-1 text-gray-900 dark:text-slate-100 items-center gap-20 px-4 sm:px-6 sm:py-32 lg:max-w-7xl lg:grid-cols-2 lg:px-8"
     v-for="profile in profiles"
   >
     <div>
@@ -32,6 +32,13 @@
             Email
           </a>
         </div>
+        <a
+          href="/Putu_Jois_resume.pdf"
+          class="py-2 px-3 text-xs sm:text-lg border border-black dark:border-white hover:bg-slate-900 dark:hover:bg-white dark:hover:text-black rounded-full gap-2 flex items-center hover:text-white ease-in-out transition-all duration-700 mt-2 w-40 md:w-56"
+        >
+          <iconDocument class="sm:size-6 size-3" />
+          Unduh resume
+        </a>
       </div>
     </div>
     <!-- Gambar Profile -->
@@ -54,10 +61,11 @@
 import iconGithub from './icons/iconGithub.vue'
 import iconLinkedin from './icons/iconLinkedin.vue'
 import iconEmail from './icons/iconEmail.vue'
+import iconDocument from './icons/iconDocument.vue'
 
 const profiles = [
   {
-    salam: "Hello I'm, Jois ",
+    salam: 'Halo saya, Jois ',
     job: 'Web Development',
     name: 'Ni Putu Jois Tika Dewi',
     image: 'aku-2.png',
