@@ -172,17 +172,17 @@ export default {
       menuDropdown.classList.toggle('hidden')
     },
     toggleTheme() {
-      theme = theme === 'light' ? 'dark' : 'light'
+      this.theme = this.theme === 'light' ? 'dark' : 'light'
       this.storeThemeSetting()
       document.documentElement.classList.toggle('dark')
     },
     storeThemeSetting() {
-      localStorage.setItem('theme', theme)
+      localStorage.setItem('theme', this.theme)
     },
     getThemeSetting() {
       let theme = localStorage.getItem('theme')
       if (theme) {
-        theme = theme
+        this.theme = theme
       }
     },
   },
