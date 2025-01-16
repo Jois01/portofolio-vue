@@ -41,7 +41,7 @@ const navigations = [
               stroke="currentColor"
               class="size-6"
               :class="{
-                hidden: this.theme === 'light',
+                hidden: theme === 'light',
               }"
             >
               <path
@@ -58,7 +58,7 @@ const navigations = [
               stroke="currentColor"
               class="size-5"
               :class="{
-                hidden: this.theme === 'dark',
+                hidden: theme === 'dark',
               }"
             >
               <path
@@ -123,7 +123,7 @@ const navigations = [
                 stroke="currentColor"
                 class="size-6"
                 :class="{
-                  hidden: this.theme === 'light',
+                  hidden: theme === 'light',
                 }"
               >
                 <path
@@ -140,7 +140,7 @@ const navigations = [
                 stroke="currentColor"
                 class="size-5"
                 :class="{
-                  hidden: this.theme === 'dark',
+                  hidden: theme === 'dark',
                 }"
               >
                 <path
@@ -172,17 +172,17 @@ export default {
       menuDropdown.classList.toggle('hidden')
     },
     toggleTheme() {
-      this.theme = this.theme === 'light' ? 'dark' : 'light'
+      theme = theme === 'light' ? 'dark' : 'light'
       this.storeThemeSetting()
       document.documentElement.classList.toggle('dark')
     },
     storeThemeSetting() {
-      localStorage.setItem('theme', this.theme)
+      localStorage.setItem('theme', theme)
     },
     getThemeSetting() {
       let theme = localStorage.getItem('theme')
       if (theme) {
-        this.theme = theme
+        theme = theme
       }
     },
   },
