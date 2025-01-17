@@ -1,6 +1,33 @@
 <script setup>
+import projectData from '@/store/index.json'
+
 import iconGithub from './icons/iconGithub.vue'
 import iconLihat from './icons/iconLihat.vue'
+import IconHtml from './icons/iconHtml.vue'
+import IconJs from './icons/iconJs.vue'
+import IconLaravel from './icons/iconLaravel.vue'
+import IconPHP from './icons/iconPHP.vue'
+import IconTailwind from './icons/IconTailwind.vue'
+import IconVue from './icons/iconVue.vue'
+import IconBoostrap from './icons/iconBoostrap.vue'
+
+const iconMap = {
+  IconVue,
+  IconJs,
+  IconTailwind,
+  IconHtml,
+  IconPHP,
+  IconLaravel,
+  IconBoostrap,
+}
+
+const projects = projectData.map((project) => ({
+  ...project,
+  teknologi: project.teknologi.map((tech) => ({
+    ...tech,
+    icon: iconMap[tech.icon],
+  })),
+}))
 </script>
 <template>
   <div class="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
@@ -15,10 +42,14 @@ import iconLihat from './icons/iconLihat.vue'
       >
         <img :src="project.image" class="w-full rounded-lg bg-gray-200" />
         <h3 class="mt-4 text-xl font-bold">{{ project.name }}</h3>
-        <div class="mt-1 gap-2 font-medium grid grid-cols-3">
-          <div class="items-start text-center" v-for="tech in project.teknologi" :key="tech">
-            <div class="bg-gray-900 border border-gray-200 text-sm py-1 rounded-md text-gray-200">
-              {{ tech }}
+        <div class="mt-1 gap-2 font-medium grid lg:grid-cols-3 grid-cols-2">
+          <div v-for="tech in project.teknologi" :key="tech.name">
+            <div
+              class="bg-gray-900 border border-gray-200 text-sm py-1 px-2 rounded-md text-gray-200 flex items-center gap-1"
+            >
+              <component v-if="tech.icon" :is="tech.icon" class="size-4" />
+
+              {{ tech.name }}
             </div>
           </div>
         </div>
@@ -34,6 +65,7 @@ import iconLihat from './icons/iconLihat.vue'
             Github
           </a>
           <a
+            v-if="project.link"
             :href="project.link"
             target="_blank"
             rel="noopener noreferrer"

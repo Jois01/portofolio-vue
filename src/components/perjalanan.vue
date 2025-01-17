@@ -13,10 +13,10 @@
             class="items-center justify-between p-4 bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-700 dark:border-gray-600"
           >
             <time
-              class="mb-4 sm:order-last sm:mb-0 text-xl bg-gray-100 text-gray-800 font-normal me-2 px-2.5 py-0.5 rounded dark:bg-gray-600 dark:text-gray-300"
+              class="mb-4 sm:order-last sm:mb-0 sm:text-xl text-lg bg-gray-100 text-gray-800 font-normal me-2 px-2.5 py-0.5 rounded dark:bg-gray-600 dark:text-gray-300"
               >{{ about.date }}</time
             >
-            <div class="font-normal ml-2 text-lg text-gray-900 dark:text-gray-300">
+            <div class="font-normal ml-2 sm:text-lg text-md text-gray-900 dark:text-gray-300">
               {{ about.name }}
             </div>
             <div class="text-sm font-normal ml-2 text-gray-500 dark:text-gray-300 md:w-96">

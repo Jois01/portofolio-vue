@@ -29,7 +29,7 @@ const skills = [
       :key="index"
       class="flex flex-col items-center justify-center text-gray-900 rounded-md hover:shadow-md hover:shadow-black py-4 px-3 ease-in-out duration-300"
     >
-      <component :is="skill.component" class="size-16 mb-2 " />
+      <component :is="skill.component" class="sm:size-16 size-10 mb-2" />
       <p class="text-gray-400 text-sm">{{ skill.name }}</p>
     </div>
   </div>

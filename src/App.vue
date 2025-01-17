@@ -21,7 +21,5 @@ import Footer from './components/footer.vue'
   <section id="contact">
     <contact />
   </section>
-  <section>
-    <Footer />
-  </section>
+  <Footer />
 </template>

@@ -2,49 +2,67 @@
   {
     "id": 1,
     "name": "Portofolio",
-    "teknologi": ["vue.js", "javascript", "tailwind css"],
+    "teknologi": [
+      { "icon": "IconVue", "name": "Vue.js" },
+      { "icon": "IconTailwind", "name": "Tailwind css" }
+    ],
     "image": "portofolio.png",
-    "github": "#",
-    "link":"#"
+    "github": "https://github.com/Jois01/portofolio-vue",
+    "link": "https://putujois.vercel.app/"
   },
   {
     "id": 2,
     "name": "Profile Perusahaan",
-    "teknologi": ["javascript", "tailwind css", "HTML"],
+    "teknologi": [
+      { "icon": "IconHtml", "name": "HTML" },
+      { "icon": "IconTailwind", "name": "Tailwind css" },
+      { "icon": "IconJs", "name": "JavaScript" }
+    ],
     "image": "perusahaan.png",
     "github": "https://github.com/Jois01/coba-tailwindcss.github.io",
-    "link":"https://jois01.github.io/coba-tailwindcss.github.io/"
+    "link": "https://jois01.github.io/coba-tailwindcss.github.io/"
   },
   {
     "id": 3,
     "name": "Blog Sederhana",
-    "teknologi": ["Laravel", "tailwind css"],
+    "teknologi": [
+      { "icon": "IconLaravel", "name": "Laravel" },
+      { "icon": "IconTailwind", "name": "Tailwind css" }
+    ],
     "image": "blog.png",
-    "github": "https://github.com/Jois01/nyoba",
-    "link":"#"
+    "github": "https://github.com/Jois01/nyoba"
   },
   {
     "id": 4,
     "name": "e-commers dummyjson Api",
-    "teknologi": ["Vue.js", "tailwind css"],
+    "teknologi": [
+      { "icon": "IconVue", "name": "Vue.js" },
+      { "icon": "IconTailwind", "name": "Tailwind css" }
+    ],
     "image": "e-commers.png",
     "github": "https://github.com/Jois01/e-commerce",
-    "link":"https://e-commerce-api-lime.vercel.app/product"
+    "link": "https://e-commerce-api-lime.vercel.app/product"
   },
   {
     "id": 5,
     "name": "To Do List",
-    "teknologi": ["Vue.js", "tailwind css"],
+    "teknologi": [
+      { "icon": "IconVue", "name": "Vue.js" },
+      { "icon": "IconTailwind", "name": "Tailwind css" }
+    ],
     "image": "todolist.png",
     "github": "https://github.com/Jois01/vue-todoList",
-    "link":"https://vue-todo-list-seven-drab.vercel.app/"
+    "link": "https://vue-todo-list-seven-drab.vercel.app/"
   },
   {
     "id": 6,
     "name": "Pizza Order",
-    "teknologi": ["Vue.js", "tailwind css"],
+    "teknologi": [
+      { "icon": "IconVue", "name": "Vue.js" },
+      { "icon": "IconTailwind", "name": "Tailwind css" }
+    ],
     "image": "pizza.png",
     "github": "https://github.com/Jois01/pizza-order",
-    "link":"https://pizza-order-sooty.vercel.app/"
+    "link": "https://pizza-order-sooty.vercel.app/"
   }
 ]
