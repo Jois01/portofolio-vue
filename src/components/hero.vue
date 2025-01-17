@@ -14,7 +14,7 @@
             href="https://github.com/Jois01"
             class="py-2 px-3 text-xs sm:text-lg border border-black dark:border-white hover:bg-slate-900 dark:hover:bg-white dark:hover:text-black rounded-full gap-1 flex items-center hover:text-white ease-in-out transition-all duration-700"
           >
-            <iconGithub class="sm:size-6 size-4" />
+            <iconGithub class="sm:size-6 size-5" />
             Github
           </a>
           <a
