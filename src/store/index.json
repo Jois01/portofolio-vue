@@ -41,7 +41,7 @@
     ],
     "image": "e-commers.png",
     "github": "https://github.com/Jois01/e-commerce",
-    "link": "https://e-commerce-api-lime.vercel.app/product"
+    "link": "https://e-commerce-api-lime.vercel.app"
   },
   {
     "id": 5,
@@ -52,7 +52,7 @@
     ],
     "image": "todolist.png",
     "github": "https://github.com/Jois01/vue-todoList",
-    "link": "https://vue-todo-list-seven-drab.vercel.app/"
+    "link": "https://vue-todo-list-seven-drab.vercel.app"
   },
   {
     "id": 6,
@@ -63,6 +63,6 @@
     ],
     "image": "pizza.png",
     "github": "https://github.com/Jois01/pizza-order",
-    "link": "https://pizza-order-sooty.vercel.app/"
+    "link": "https://pizza-order-sooty.vercel.app"
   }
 ]
