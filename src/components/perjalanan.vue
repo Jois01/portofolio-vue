@@ -41,7 +41,7 @@ const abouts = [
   },
   {
     name: 's.p Digital',
-    date: 'November 2024 - Sekarang',
+    date: 'November 2024 - Februari 2025',
     description:
       'Mengikuti program magang sebagai Frontend Developer, berfokus pada pengembangan antarmuka pengguna menggunakan Vue.js.',
   },
