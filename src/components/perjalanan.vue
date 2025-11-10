@@ -35,7 +35,7 @@ import IconKalender from './icons/iconKalender.vue'
 const abouts = [
   {
     name: 'ITB Stikom Bali',
-    date: 'Oktober 2022 - Sekarang',
+    date: 'Oktober 2022 - Oktober 2025',
     description:
       'Sedang menempuh pendidikan Diploma 3 dalam bidang Manajemen Informatika, fokus pada pengembangan pemrograman web, dan analisis sistem.',
   },

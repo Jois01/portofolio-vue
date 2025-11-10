@@ -1,6 +1,16 @@
 [
   {
     "id": 1,
+    "name": "Manajemen Tugas Perusahaan",
+    "teknologi": [
+      { "icon": "IconLaravel", "name": "Laravel" },
+      { "icon": "IconTailwind", "name": "Tailwind css" }
+    ],
+    "image": "manajemen.png",
+    "description": "Website manajemen tugas untuk perusahaan yang memungkinkan pengguna membuat, mengelola, dan melacak tugas proyek secara efisien. Fitur utama meliputi pembuatan tugas, penugasan anggota tim, pelacakan kemajuan, dan notifikasi otomatis. Dibangun menggunakan Laravel sebagai backend yang kuat dan Tailwind CSS untuk antarmuka yang responsif serta menarik. Website ini dikembangkan sebagai bagian dari tugas akhir saya."
+  },
+  {
+    "id": 2,
     "name": "Portofolio",
     "teknologi": [
       { "icon": "IconVue", "name": "Vue.js" },
@@ -8,10 +18,11 @@
     ],
     "image": "portofolio.png",
     "github": "https://github.com/Jois01/portofolio-vue",
-    "link": "https://putujois.vercel.app/"
+    "link": "https://putujois.vercel.app/",
+    "description": "website portofolio pribadi yang menampilkan proyek-proyek dan keterampilan saya sebagai pengembang web. Dibangun menggunakan Vue.js untuk pengalaman pengguna yang interaktif dan Tailwind CSS untuk desain yang responsif dan modern."
   },
   {
-    "id": 2,
+    "id": 3,
     "name": "Profile Perusahaan",
     "teknologi": [
       { "icon": "IconHtml", "name": "HTML" },
@@ -20,20 +31,22 @@
     ],
     "image": "perusahaan.png",
     "github": "https://github.com/Jois01/coba-tailwindcss.github.io",
-    "link": "https://jois01.github.io/coba-tailwindcss.github.io/"
+    "link": "https://jois01.github.io/coba-tailwindcss.github.io/",
+    "description": "Website profile perusahaan sederhana yang menampilkan informasi tentang perusahaan, layanan yang ditawarkan, dan kontak. Dibangun menggunakan HTML untuk struktur dasar, Tailwind CSS untuk desain yang responsif dan menarik, serta JavaScript untuk interaktivitas tambahan. Website ini dibuat untuk memenuhi tugas mata kuliah Pemrograman Web."
   },
   {
-    "id": 3,
+    "id": 4,
     "name": "Blog Sederhana",
     "teknologi": [
       { "icon": "IconLaravel", "name": "Laravel" },
       { "icon": "IconTailwind", "name": "Tailwind css" }
     ],
     "image": "blog.png",
-    "github": "https://github.com/Jois01/nyoba"
+    "github": "https://github.com/Jois01/nyoba",
+    "description": "Blog sederhana yang memungkinkan pengguna untuk membuat, mengedit, dan menghapus postingan. Fitur utama termasuk sistem autentikasi pengguna, kategori postingan, dan komentar. Dibangun dengan Laravel untuk backend yang kuat dan Tailwind CSS untuk antarmuka yang responsif dan menarik. Website ini dibuat untuk memenuhi tugas mata kuliah Pemrograman Web."
   },
   {
-    "id": 4,
+    "id": 5,
     "name": "e-commers dummyjson Api",
     "teknologi": [
       { "icon": "IconVue", "name": "Vue.js" },
@@ -41,10 +54,11 @@
     ],
     "image": "e-commers.png",
     "github": "https://github.com/Jois01/e-commerce",
-    "link": "https://e-commerce-api-lime.vercel.app"
+    "link": "https://e-commerce-api-lime.vercel.app",
+    "description": "Website e-commerce sederhana yang menggunakan DummyJSON API untuk menampilkan produk-produk. Fitur utama termasuk daftar produk, detail produk, dan keranjang belanja. Dibangun dengan Vue.js untuk pengalaman pengguna yang interaktif dan Tailwind CSS untuk desain yang responsif dan modern."
   },
   {
-    "id": 5,
+    "id": 6,
     "name": "To Do List",
     "teknologi": [
       { "icon": "IconVue", "name": "Vue.js" },
@@ -52,10 +66,11 @@
     ],
     "image": "todolist.png",
     "github": "https://github.com/Jois01/vue-todoList",
-    "link": "https://vue-todo-list-seven-drab.vercel.app"
+    "link": "https://vue-todo-list-seven-drab.vercel.app",
+    "description": "Website To Do List sederhana yang memungkinkan pengguna untuk menambahkan dan menghapus tugas-tugas mereka. Fitur utama termasuk penandaan tugas sebagai selesai, pending, dan penyimpanan data lokal. Dibangun dengan Vue.js untuk pengalaman pengguna yang interaktif dan Tailwind CSS untuk desain yang responsif dan modern."
   },
   {
-    "id": 6,
+    "id": 7,
     "name": "Pizza Order",
     "teknologi": [
       { "icon": "IconVue", "name": "Vue.js" },
@@ -63,6 +78,7 @@
     ],
     "image": "pizza.png",
     "github": "https://github.com/Jois01/pizza-order",
-    "link": "https://pizza-order-sooty.vercel.app"
+    "link": "https://pizza-order-sooty.vercel.app",
+    "description": "Website pemesanan pizza sederhana yang memungkinkan pengguna untuk memilih jenis pizza dan topping. Fitur utama termasuk kalkulasi harga otomatis dan tampilan ringkasan pesanan. Dibangun dengan Vue.js untuk pengalaman pengguna yang interaktif dan Tailwind CSS untuk desain yang responsif dan modern."
   }
 ]

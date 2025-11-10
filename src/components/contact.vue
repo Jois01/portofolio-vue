@@ -1,7 +1,7 @@
 <template>
   <div class="container items-center mx-auto p-6 flex justify-center">
     <div
-      class="border-2 border-dashed grid md:grid-cols-1 lg:grid-cols-2 items-center justify-between border-gray-200 rounded-lg m-4 p-10"
+      class="border-2 border-dashed grid md:grid-cols-1 lg:grid-cols-2 items-center justify-between  border-gray-400 dark:border-gray-200 rounded-lg m-4 p-10"
     >
       <div class="md:text-left text-center items-center" v-for="contact in contacts">
         <h2 class="text-4xl font-extrabold text-gray-900 dark:text-white">{{ contact.Name }}</h2>

@@ -6,15 +6,7 @@ import iconLinkedin from './icons/iconLinkedin.vue'
   <footer class="bg-gray-950">
     <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
       <div class="mb-6 md:flex md:justify-between">
-        <div class="md:mb-0 items-center">
-          <lottie-player
-            src="https://lottie.host/d8fa7908-8ed3-4516-8bf7-d2e6cc4b5766/Hkh1gtg1Fq.json"
-            speed="1"
-            loop
-            autoplay
-            mode="normal"
-          ></lottie-player>
-        </div>
+        
         <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
           <div>
             <h2 class="mb-6 text-sm font-semibold uppercas text-white">Sumber daya</h2>
